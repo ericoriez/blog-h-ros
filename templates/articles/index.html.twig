@@ -1,14 +1,12 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Accueil{% endblock %}
+{% block title %}Articles index{% endblock %}
 
 {% block body %}
-
-<h3>Derniers ajouts:</h3>
-    {# <h1>Articles index</h1> #}
+    <h1>Articles index</h1>
 
     <table class="table">
-        {# <thead>
+        <thead>
             <tr>
                 <th>Id</th>
                 <th>Titre</th>
@@ -17,10 +15,10 @@
                 <th>actions</th>
             </tr>
         </thead>
-        <tbody> #}
+        <tbody>
         {% for article in articles %}
             <tr>
-                {# <td>{{ article.id }}</td> #}
+                <td>{{ article.id }}</td>
                 <td>{{ article.titre }}</td>
                 <td>{{ article.texte }}</td>
                 <td>{{ article.photo }}</td>
@@ -37,5 +35,5 @@
         </tbody>
     </table>
 
-
+    {# <a href="{{ path('app_articles_new') }}">Create new</a> #}
 {% endblock %}

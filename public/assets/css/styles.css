@@ -101,3 +101,41 @@ h3{
     color: white;
     margin: 5px;
 }
+
+
+/* section Accueil */
+
+.div-cree-article{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#a-creer-article{
+    color: white;
+    text-decoration: none;
+    background-color: #2F2929;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    
+}
+
+.table{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: #750D0D;
+}
+
+th{
+    color: white;
+}
+
+td{
+    color: white;
+    
+}
+
+tr{
+}

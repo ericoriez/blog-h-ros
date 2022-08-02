@@ -7,6 +7,13 @@
             <button><a href="{{ path('app_login') }}">Connexion</a></button>
             <button><a href="{{ path('app_register') }}">Créer un compte</a></button>
             {% endif %}
+
+            {% if app.user %}
+				<div class="mb-3">
+					Bienvenue
+					{{ app.user.firstname }},
+			    </div>
+		    {% endif %}
     </div>
 
     <div id="div-logo">

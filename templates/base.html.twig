@@ -20,7 +20,14 @@
     <body>
         {% include "_partials/header.html.twig" %}
 
+        			{% if app.user %}
+						<div class="mb-3 div-cree-article">
+							<a id="a-creer-article" href="{{ path('app_articles_new') }}">Créer un article</a>
+						</div>
+					{% endif %}
+
         {% block body %}{% endblock %}
+
 
         {% include "_partials/footer.html.twig" %}
 
