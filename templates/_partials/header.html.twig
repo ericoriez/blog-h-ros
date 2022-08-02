@@ -1,0 +1,22 @@
+<header>
+
+    <div id="div-users">
+            {% if app.user %}
+            <button><a href="{{ path('app_logout') }}">Déconnexion</a></button>
+            {% else %}
+            <button><a href="{{ path('app_login') }}">Connexion</a></button>
+            <button><a href="{{ path('app_register') }}">Créer un compte</a></button>
+            {% endif %}
+    </div>
+
+    <div id="div-logo">
+        <img src="{{ asset('assets/static/img-site/logo.png') }}" alt="">
+    </div>
+
+    <nav id="nav-header">
+        <a id="btn-red" href="/">Accueil</a>
+        <a id="btn-yellow" href="">Films</a>
+        <a id="btn-green" href="">Séries</a>
+    </nav>
+
+</header>

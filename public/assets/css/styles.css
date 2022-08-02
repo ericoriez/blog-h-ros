@@ -1,0 +1,103 @@
+header{
+    height: 300px;
+    background-image: url("../static/img-site/pexels-erik-mclean.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#div-users{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 10px;
+}
+
+#div-users button{
+    background-color: #2F2929;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+#div-users a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+#div-logo{
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+#nav-header{
+    text-align: center;
+    margin-top: 80px;
+}
+
+#btn-red, #btn-yellow, #btn-green{
+    text-decoration: none;
+    margin: 15px;
+    font-size: 2rem;
+}
+
+#btn-red{
+    background-color: #750D0D;
+    color: white;
+    border-radius: 20px;
+    padding:0 15px;
+    font-family: fantasy;
+
+}
+
+#btn-yellow{
+    background-color: #EECB12;
+    color: #2F2929;
+    padding:0 10px;
+    border-radius: 20px;
+    font-family:fantasy;
+}
+
+#btn-green{
+    background-color: #1CD666;
+    color: #2F2929;
+    padding:0 10px;
+    border-radius: 20px;
+    font-family: fantasy;
+}
+
+h3{
+    margin-left: 20%;
+    margin-top: 20px;
+}
+
+/* section login */
+
+.container{
+    background-color: #750D0D;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+#h1-login{
+    color: white;
+    text-align: center;
+}
+
+#btn-login{
+    background-color: #2F2929;
+    color: white;
+    margin: 10px;
+}
+
+#label-email-login{
+    color: white;
+}
+
+#label-pass-login{
+    color: white;
+}
+
+.col{
+    color: white;
+    margin: 5px;
+}
